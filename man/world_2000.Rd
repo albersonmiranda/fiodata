@@ -22,11 +22,23 @@ A R6 class containing a set of matrices:
 }
 }
 }
+\source{
+Computational General Equilibrium Study Center (CEGEC) at the
+Federal University of Espírito Santo (UFES), Brazil.
+}
 \usage{
 world_2000
 }
 \description{
 This dataset contains a world input-output matrix for the year 2000, with 26 countries and 23 sectors.
 The data was compiled by the Computational General Equilibrium Study Center (CEGEC) at the Federal University of Espírito Santo (Brazil).
+}
+\examples{
+# Access the object
+world_2000
+
+# View available components
+names(world_2000)
+
 }
 \keyword{datasets}

@@ -20,6 +20,12 @@ A R6 class containing a set of matrices:
 }
 }
 }
+\source{
+Brazilian Institute of Geography and Statistics (IBGE);
+Brazilian Institute of Applied Economic Research (IPEA);
+Center for Computational Studies in General Equilibrium (CECEG) at
+the Federal University of Espírito Santo (UFES).
+}
 \usage{
 br_2020
 }
@@ -27,5 +33,13 @@ br_2020
 This dataset contains the Brazilian input-output matrix for the year 2020, with 51 sectors.
 The data is based on the Brazilian Institute of Geography and Statistics (IBGE) and
 the Brazilian Institute of Applied Economic Research (IPEA).
+}
+\examples{
+# Access the object
+br_2020
+
+# View available matrices
+names(br_2020)
+
 }
 \keyword{datasets}

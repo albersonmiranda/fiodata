@@ -18,5 +18,16 @@
 #'   \item{\code{taxes}}{Taxes matrix.}
 #'   \item{\code{value_added}}{Value added matrix.}
 #' }
+#' @source Brazilian Institute of Geography and Statistics (IBGE);
+#'   Brazilian Institute of Applied Economic Research (IPEA);
+#'   Center for Computational Studies in General Equilibrium (CECEG) at
+#'   the Federal University of Espírito Santo (UFES).
+#'
+#' @examples
+#' # Access the object
+#' br_2020
+#'
+#' # View available matrices
+#' names(br_2020)
 #'
 "br_2020"

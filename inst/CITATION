@@ -1,0 +1,17 @@
+bibentry(
+  "Manual",
+  title = "fiodata: Regional and Multi-Regional Input-Output Data",
+  author = c(
+    person("Alberson", "da Silva Miranda"),
+    person("Celso", "Bissoli Sessa")
+  ),
+  year = "2026",
+  note = "R package version 0.0.1",
+  url = "https://github.com/albersonmiranda/fiodata",
+  textVersion = paste(
+    "Miranda, A. S., & Sessa, C. B. (2026).",
+    "fiodata: Regional and Multi-Regional Input-Output Data.",
+    "R package version 0.0.1.",
+    "URL: https://github.com/albersonmiranda/fiodata"
+  )
+)

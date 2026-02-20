@@ -4,14 +4,14 @@
 library(fio)
 
 # path
-path = "inst/extdata/2020.xlsx"
+path <- "inst/extdata/2020.xlsx"
 
 # sheet
-sheet = "iom"
+sheet <- "iom"
 
 # names
-col_names = "D4:BB4"
-row_names = "B6:B56"
+col_names <- "D4:BB4"
+row_names <- "B6:B56"
 
 # import elements
 intermediate_transactions <- import_element(
@@ -163,4 +163,4 @@ br_2020$update_final_demand_matrix()
 br_2020$update_value_added_matrix()
 
 # save data
-usethis::use_data(br_2020, overwrite = TRUE)
+usethis::use_data(br_2020, compress = "xz", overwrite = TRUE)

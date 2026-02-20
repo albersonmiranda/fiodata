@@ -1,0 +1,58 @@
+---
+output:
+  github_document:
+    html_preview: false
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# fiodata
+
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/albersonmiranda/fiodata/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/albersonmiranda/fiodata/actions/workflows/R-CMD-check.yaml)
+[![CRAN status](https://www.r-pkg.org/badges/version/fiodata)](https://CRAN.R-project.org/package=fiodata)
+<!-- badges: end -->
+
+{fiodata} is a data-only package containing input-output matrices for R. It serves as a companion to the [{fio}](https://github.com/albersonmiranda/fio) package, providing the necessary data for input-output analysis while keeping the main package size manageable.
+
+## Datasets
+
+The package currently includes two major datasets provided by the Center for Computational Studies in General Equilibrium (CECEG) at the Federal University of Espírito Santo (UFES):
+
+*   `br_2020`: Brazilian input-output matrix for the year 2020, featuring 51 sectors.
+*   `world_2000`: World input-output matrix for the year 2000, covering 26 countries and 23 sectors.
+
+Both datasets are provided as R6 objects, allowing for easy access to various components such as intermediate transactions, total production, final demand, and more.
+
+## Installation
+
+You can install {fiodata} from CRAN with:
+
+``` r
+install.packages("fiodata")
+```
+
+## Example
+
+Here is how you can load the data and explore its structure:
+
+```{r example}
+library(fiodata)
+
+# Accessing the Brazilian 2020 matrix
+br_2020
+
+# Viewing the names of the available matrices within the object
+names(br_2020)
+```
+
+For performing analysis on these matrices, please refer to the [{fio}](https://github.com/albersonmiranda/fio) package.

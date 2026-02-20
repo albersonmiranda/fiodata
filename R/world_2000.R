@@ -19,4 +19,14 @@
 #' \item{\code{countries}}{Vector with country names.}
 #' \item{\code{sectors}}{Vector with sector names.}
 #' }
+#' @source Computational General Equilibrium Study Center (CEGEC) at the
+#'   Federal University of Espírito Santo (UFES), Brazil.
+#'
+#' @examples
+#' # Access the object
+#' world_2000
+#'
+#' # View available components
+#' names(world_2000)
+#'
 "world_2000"
