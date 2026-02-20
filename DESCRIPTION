@@ -1,6 +1,6 @@
 Package: fiodata
-Title: Input-Output Data for R
-Version: 0.0.0.9000
+Title: Regional and Multi-Regional Input-Output Data
+Version: 0.0.1
 Authors@R: c(
   person(
     given = "Alberson",
@@ -17,13 +17,18 @@ Authors@R: c(
     comment = c(ORCID = "0000-0001-7616-0244")
     )
   )
-Description: Provides World input-output (year 2000) and Brazilian input-output (year 2020) data for R. Data were made available by Dr. Celso Bissoli Sessa and the Center for Computational Studies in General Equilibrium (CECEG) from the Department of Economics at the Federal University of Espírito Santo (UFES), Brazil.
+Description: Provides Regional (Brazil, 2020) and Multi-Regional (World, 2000)
+    input-output matrices for R. This package serves as a data-only
+    companion to the 'fio' package, facilitating input-output analysis
+    by providing standardized R6 data objects.
 License: CC0
+URL: https://github.com/albersonmiranda/fiodata
+BugReports: https://github.com/albersonmiranda/fiodata/issues
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
 LazyData: true
-LazyDataCompression: bzip2
+LazyDataCompression: xz
 Depends: R (>= 3.5.0)
 Suggests:
   fio
