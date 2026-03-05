@@ -8,6 +8,7 @@
 [![R-CMD-check](https://github.com/albersonmiranda/fiodata/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/albersonmiranda/fiodata/actions/workflows/R-CMD-check.yaml)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/fiodata)](https://CRAN.R-project.org/package=fiodata)
+[![Downloads](https://cranlogs.r-pkg.org/badges/grand-total/fiodata)](https://CRAN.R-project.org/package=fiodata)
 <!-- badges: end -->
 
 {fiodata} is a data-only package containing input-output matrices for R.
