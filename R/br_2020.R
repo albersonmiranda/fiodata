@@ -29,5 +29,6 @@
 #'
 #' # View available matrices
 #' names(br_2020)
-#'
+#' 
+#' @import fio
 "br_2020"

@@ -29,4 +29,5 @@
 #' # View available components
 #' names(world_2000)
 #'
+#' @import fio
 "world_2000"
