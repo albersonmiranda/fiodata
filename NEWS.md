@@ -1,3 +1,7 @@
+# fiodata 0.1.1
+
+* Now it imports `fio` package instead of suggest.
+
 # fiodata 0.0.1
 
 * Initial CRAN submission.

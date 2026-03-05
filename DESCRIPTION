@@ -1,6 +1,6 @@
 Package: fiodata
 Title: Regional and Multi-Regional Input-Output Data
-Version: 0.0.1
+Version: 0.1.1
 Authors@R: c(
   person(
     given = "Alberson",
@@ -29,6 +29,6 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
 LazyData: true
 LazyDataCompression: xz
-Depends: R (>= 3.5.0)
-Suggests:
+Depends: R (>= 4.2.0)
+Imports:
   fio
