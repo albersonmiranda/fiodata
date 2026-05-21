@@ -1,5 +1,7 @@
 # fiodata (development version)
 
+* Update `world_2000` dataset with fio 1.0.1.
+
 # fiodata 0.1.1
 
 * Now it imports `fio` package instead of suggest.
