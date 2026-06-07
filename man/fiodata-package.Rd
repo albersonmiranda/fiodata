@@ -21,6 +21,7 @@ Useful links:
 
 Authors:
 \itemize{
+  \item Alberson da Silva Miranda \email{albersonmiranda@hotmail.com} (\href{https://orcid.org/0000-0001-9252-4175}{ORCID}) [copyright holder]
   \item Celso Bissoli Sessa \email{celso.sessa@ufes.br} (\href{https://orcid.org/0000-0001-7616-0244}{ORCID}) [data contributor]
 }
 

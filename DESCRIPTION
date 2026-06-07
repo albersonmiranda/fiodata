@@ -1,6 +1,6 @@
 Package: fiodata
 Title: Regional and Multi-Regional Input-Output Data
-Version: 0.1.1.9000
+Version: 0.2.0.9000
 Authors@R: c(
   person(
     given = "Alberson",
@@ -26,9 +26,9 @@ URL: https://github.com/albersonmiranda/fiodata
 BugReports: https://github.com/albersonmiranda/fiodata/issues
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.3
 LazyData: true
 LazyDataCompression: xz
 Depends: R (>= 4.2.0)
 Imports:
   fio
+Config/roxygen2/version: 8.0.0
